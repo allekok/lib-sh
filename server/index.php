@@ -20,7 +20,7 @@
 
 		<?php
 		/* Print latest uploads. */
-		$ignore = [".", "..", ".htaccess", "index.php", "up.php"];
+		$ignore = [".", "..", "index.php", "upload.php"];
 
 		$files = scandir(".");
 		$files = array_diff($files, $ignore);
