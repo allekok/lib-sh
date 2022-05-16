@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Show statistics and programs
+
+PEOPLE=$(ls $LIB_LOGS_PATH | wc -l)
+PROGS=$(ls $LIB_PROG_PATH)
+echo "Number of people: $PEOPLE"
+echo "Programs:"
+for P in $PROGS; do echo -e "\t$P"; done

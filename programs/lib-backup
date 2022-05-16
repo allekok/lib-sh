@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Copy library to backup path
+
+cp -rf $LIB_PATH $LIB_BACKUP_PATH
+echo "Backed up to: $LIB_BACKUP_PATH"

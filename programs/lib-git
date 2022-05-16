@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Push changes to origin git repository
+
+cd $LIB_PATH
+git add .
+git commit -m "commit changes"
+git push

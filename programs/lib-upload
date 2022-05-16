@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Archive library and upload to server
+
+lib-tar
+curl --output - -u $LIB_SERV_USER -F file=$LIB_ARCH_PATH $LIB_SERV_URL

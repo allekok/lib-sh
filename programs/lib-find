@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Search in logs
+
+cd $LIB_LOGS_PATH
+grep $1 *

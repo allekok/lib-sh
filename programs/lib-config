@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Configuration file
+
+export LIB_PATH="$HOME/lib-sh"
+export LIB_LOGS_PATH="$LIB_PATH/logs"
+export LIB_PROG_PATH="$LIB_PATH/programs"
+export LIB_SERV_PATH="$LIB_PATH/server"
+export LIB_TEMP_PATH="$LIB_PATH/templates"
+export LIB_BACKUP_PATH="$HOME/backup"
+export LIB_ARCH_PATH="$LIB_BACKUP_PATH/lib.tar"
+export LIB_SERV_URL="http://localhost/upload.php"
+export LIB_SERV_USER="lib"
+export LIB_EDITOR="emacsclient"
+export PATH="$PATH:$LIB_PROG_PATH"

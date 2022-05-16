@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Open a log file in editor
+
+$LIB_EDITOR "$LIB_LOGS_PATH/$1"

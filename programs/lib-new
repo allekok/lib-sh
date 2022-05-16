@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Create a new file in logs directory and open it in editor
+
+cd $LIB_LOGS_PATH
+TEMP_FILE="$LIB_TEMP_PATH/$1"
+LAST_FILE=$(ls | sort | tail -1)
+NEW_FILE=$((LAST_FILE + 1))
+cp $TEMP_FILE $NEW_FILE
+$LIB_EDITOR $NEW_FILE

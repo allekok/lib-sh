@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Archive library
+
+tar cvf $LIB_ARCH_PATH $LIB_PATH
+echo "'$LIB_ARCH_PATH' created."
